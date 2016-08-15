@@ -1,0 +1,213 @@
+2016-08-15 09:24:55 [scrapy] INFO: Scrapy 1.1.1 started (bot: lagou_job)
+2016-08-15 09:24:55 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'lagou_job.spiders', 'SPIDER_MODULES': ['lagou_job.spiders'], 'LOG_FILE': 'log/lagou_job_info.log', 'DOWNLOAD_DELAY': 1, 'BOT_NAME': 'lagou_job'}
+2016-08-15 09:24:55 [scrapy] INFO: Enabled extensions:
+['scrapy.extensions.logstats.LogStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.spiderstate.SpiderState']
+2016-08-15 09:24:55 [py.warnings] WARNING: D:\works\scrapy test\lagou_job\lagou_job\middlewares.py:3: ScrapyDeprecationWarning: Module `scrapy.log` has been deprecated, Scrapy now relies on the builtin Python library for logging. Read the updated logging entry in the documentation to learn more.
+  from scrapy import log
+
+2016-08-15 09:24:55 [scrapy] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'lagou_job.middlewares.ProxyMiddleWare',
+ 'scrapy.downloadermiddlewares.chunked.ChunkedTransferMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2016-08-15 09:24:55 [scrapy] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2016-08-15 09:24:55 [scrapy] INFO: Enabled item pipelines:
+['lagou_job.pipelines.LagouJobInfoDbPipeline']
+2016-08-15 09:24:55 [scrapy] INFO: Spider opened
+2016-08-15 09:24:55 [scrapy] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2016-08-15 09:24:55 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2016-08-15 09:24:55 [py.warnings] WARNING: D:\works\scrapy test\lagou_job\lagou_job\middlewares.py:13: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg(request.body.encode('utf-8'), level=log.DEBUG)
+
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=Java
+2016-08-15 09:24:55 [py.warnings] WARNING: D:\works\scrapy test\lagou_job\lagou_job\middlewares.py:14: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg(proxy, level=log.DEBUG)
+
+2016-08-15 09:24:55 [scrapy] DEBUG: 139.129.211.211:80
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=Python
+2016-08-15 09:24:55 [scrapy] DEBUG: 202.100.167.180:80
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=PHP
+2016-08-15 09:24:55 [scrapy] DEBUG: 60.191.106.110:9999
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=.NET
+2016-08-15 09:24:55 [scrapy] DEBUG: 58.243.0.162:9999
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=C%23
+2016-08-15 09:24:55 [scrapy] DEBUG: 118.193.211.157:80
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=C%2B%2B
+2016-08-15 09:24:55 [scrapy] DEBUG: 58.243.0.162:9999
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=C
+2016-08-15 09:24:55 [scrapy] DEBUG: 202.100.167.145:80
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=VB
+2016-08-15 09:24:55 [scrapy] DEBUG: 221.1.201.142:9999
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=Delphi
+2016-08-15 09:24:55 [scrapy] DEBUG: 182.90.252.10:2226
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=Perl
+2016-08-15 09:24:55 [scrapy] DEBUG: 139.196.138.176:80
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=Ruby
+2016-08-15 09:24:55 [scrapy] DEBUG: 121.10.234.15:3128
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=Hadoop
+2016-08-15 09:24:55 [scrapy] DEBUG: 118.193.211.157:80
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=Node.js
+2016-08-15 09:24:55 [scrapy] DEBUG: 121.199.251.236:80
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98
+2016-08-15 09:24:55 [scrapy] DEBUG: 139.196.138.176:80
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86
+2016-08-15 09:24:55 [scrapy] DEBUG: 139.196.138.176:80
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95
+2016-08-15 09:24:55 [scrapy] DEBUG: 139.196.138.176:80
+2016-08-15 09:24:55 [py.warnings] WARNING: D:\works\scrapy test\lagou_job\lagou_job\middlewares.py:25: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg('-'*10, level=log.DEBUG)
+
+2016-08-15 09:24:55 [scrapy] DEBUG: ----------
+2016-08-15 09:24:55 [py.warnings] WARNING: D:\works\scrapy test\lagou_job\lagou_job\middlewares.py:26: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg(response.url, level=log.DEBUG)
+
+2016-08-15 09:24:55 [scrapy] DEBUG: http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false
+2016-08-15 09:24:55 [py.warnings] WARNING: D:\works\scrapy test\lagou_job\lagou_job\middlewares.py:27: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg(request.body.encode('utf-8'), level=log.DEBUG)
+
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=Java
+2016-08-15 09:24:55 [py.warnings] WARNING: D:\works\scrapy test\lagou_job\lagou_job\middlewares.py:28: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg(response.status, level=log.DEBUG)
+
+2016-08-15 09:24:55 [scrapy] DEBUG: 404
+2016-08-15 09:24:55 [py.warnings] WARNING: D:\works\scrapy test\lagou_job\lagou_job\middlewares.py:29: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg('proxy block!', level=log.DEBUG)
+
+2016-08-15 09:24:55 [scrapy] DEBUG: proxy block!
+2016-08-15 09:24:55 [py.warnings] WARNING: D:\works\scrapy test\lagou_job\lagou_job\middlewares.py:30: ScrapyDeprecationWarning: log.msg has been deprecated, create a python logger and log through it instead
+  log.msg('-'*10, level=log.DEBUG)
+
+2016-08-15 09:24:55 [scrapy] DEBUG: ----------
+2016-08-15 09:24:55 [scrapy] DEBUG: Filtered duplicate request: <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2016-08-15 09:24:55 [scrapy] DEBUG: pn=1&kd=%E7%B2%BE%E5%87%86%E6%8E%A8%E8%8D%90
+2016-08-15 09:24:55 [scrapy] DEBUG: 123.120.39.25:9999
+2016-08-15 09:24:57 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+2016-08-15 09:24:57 [scrapy] DEBUG: pn=1&kd=%E5%85%A8%E6%A0%88%E5%B7%A5%E7%A8%8B%E5%B8%88
+2016-08-15 09:24:57 [scrapy] DEBUG: 114.47.59.219:3128
+2016-08-15 09:24:59 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+2016-08-15 09:24:59 [scrapy] DEBUG: pn=1&kd=Go
+2016-08-15 09:24:59 [scrapy] DEBUG: 124.88.67.9:80
+2016-08-15 09:25:00 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+2016-08-15 09:25:00 [scrapy] DEBUG: pn=1&kd=ASP
+2016-08-15 09:25:00 [scrapy] DEBUG: 139.196.138.176:80
+2016-08-15 09:25:00 [scrapy] ERROR: Spider error processing <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\works\scrapy test\lagou_job\lagou_job\spiders\lagou_job_info.py", line 59, in parse
+    html = json.loads(response.body)
+  File "C:\Python27\lib\json\__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 365, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 383, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2016-08-15 09:25:02 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+2016-08-15 09:25:02 [scrapy] DEBUG: pn=1&kd=Shell
+2016-08-15 09:25:02 [scrapy] DEBUG: 140.135.138.31:3128
+2016-08-15 09:25:03 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+2016-08-15 09:25:03 [scrapy] DEBUG: pn=1&kd=%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91%E5%85%B6%E5%AE%83
+2016-08-15 09:25:03 [scrapy] DEBUG: 159.226.224.180:3128
+2016-08-15 09:25:03 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+2016-08-15 09:25:03 [scrapy] DEBUG: pn=1&kd=HTML5
+2016-08-15 09:25:03 [scrapy] DEBUG: 113.107.112.209:80
+2016-08-15 09:25:05 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+2016-08-15 09:25:05 [scrapy] DEBUG: pn=1&kd=Android
+2016-08-15 09:25:05 [scrapy] DEBUG: 140.135.138.31:3128
+2016-08-15 09:25:06 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+2016-08-15 09:25:06 [scrapy] DEBUG: pn=1&kd=iOS
+2016-08-15 09:25:06 [scrapy] DEBUG: 118.193.211.157:80
+2016-08-15 09:25:06 [scrapy] DEBUG: ----------
+2016-08-15 09:25:06 [scrapy] DEBUG: http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false
+2016-08-15 09:25:06 [scrapy] DEBUG: pn=1&kd=Perl
+2016-08-15 09:25:06 [scrapy] DEBUG: 404
+2016-08-15 09:25:06 [scrapy] DEBUG: proxy block!
+2016-08-15 09:25:06 [scrapy] DEBUG: ----------
+2016-08-15 09:25:06 [scrapy] DEBUG: pn=1&kd=WP
+2016-08-15 09:25:06 [scrapy] DEBUG: 58.243.0.162:9999
+2016-08-15 09:25:09 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+2016-08-15 09:25:09 [scrapy] DEBUG: pn=1&kd=%E7%A7%BB%E5%8A%A8%E5%BC%80%E5%8F%91%E5%85%B6%E5%AE%83
+2016-08-15 09:25:09 [scrapy] DEBUG: 159.226.224.180:3128
+2016-08-15 09:25:09 [scrapy] ERROR: Spider error processing <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\scrapy\utils\defer.py", line 102, in iter_errback
+    yield next(it)
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 29, in process_spider_output
+    for x in result:
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 22, in <genexpr>
+    return (_set_referer(r) for r in result or ())
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 37, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "C:\Python27\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 58, in <genexpr>
+    return (r for r in result or () if _filter(r))
+  File "D:\works\scrapy test\lagou_job\lagou_job\spiders\lagou_job_info.py", line 59, in parse
+    html = json.loads(response.body)
+  File "C:\Python27\lib\json\__init__.py", line 338, in loads
+    return _default_decoder.decode(s)
+  File "C:\Python27\lib\json\decoder.py", line 365, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "C:\Python27\lib\json\decoder.py", line 383, in raw_decode
+    raise ValueError("No JSON object could be decoded")
+ValueError: No JSON object could be decoded
+2016-08-15 09:25:12 [scrapy] DEBUG: ----------
+2016-08-15 09:25:12 [scrapy] DEBUG: http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false
+2016-08-15 09:25:12 [scrapy] DEBUG: pn=1&kd=%E6%95%B0%E6%8D%AE%E6%8C%96%E6%8E%98
+2016-08-15 09:25:12 [scrapy] DEBUG: 404
+2016-08-15 09:25:12 [scrapy] DEBUG: proxy block!
+2016-08-15 09:25:12 [scrapy] DEBUG: ----------
+2016-08-15 09:25:12 [scrapy] DEBUG: pn=1&kd=web%E5%89%8D%E7%AB%AF
+2016-08-15 09:25:12 [scrapy] DEBUG: 122.156.214.154:3129
+2016-08-15 09:25:13 [scrapy] DEBUG: ----------
+2016-08-15 09:25:13 [scrapy] DEBUG: http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false
+2016-08-15 09:25:13 [scrapy] DEBUG: pn=1&kd=%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86
+2016-08-15 09:25:13 [scrapy] DEBUG: 404
+2016-08-15 09:25:13 [scrapy] DEBUG: proxy block!
+2016-08-15 09:25:13 [scrapy] DEBUG: ----------
+2016-08-15 09:25:13 [scrapy] DEBUG: pn=1&kd=Flash
+2016-08-15 09:25:13 [scrapy] DEBUG: 119.52.11.14:9999
+2016-08-15 09:25:14 [scrapy] DEBUG: ----------
+2016-08-15 09:25:14 [scrapy] DEBUG: http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false
+2016-08-15 09:25:14 [scrapy] DEBUG: pn=1&kd=%E6%90%9C%E7%B4%A2%E7%AE%97%E6%B3%95
+2016-08-15 09:25:14 [scrapy] DEBUG: 404
+2016-08-15 09:25:14 [scrapy] DEBUG: proxy block!
+2016-08-15 09:25:14 [scrapy] DEBUG: ----------
+2016-08-15 09:25:14 [scrapy] DEBUG: pn=1&kd=JavaScript
+2016-08-15 09:25:14 [scrapy] DEBUG: 202.100.167.142:80
+2016-08-15 09:25:15 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None) ['partial']
+2016-08-15 09:25:15 [scrapy] DEBUG: pn=1&kd=U3D
+2016-08-15 09:25:15 [scrapy] DEBUG: 121.10.234.15:3128
+2016-08-15 09:25:15 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+2016-08-15 09:25:15 [scrapy] DEBUG: pn=1&kd=COCOS2D-X
+2016-08-15 09:25:15 [scrapy] DEBUG: 202.100.167.145:80
+2016-08-15 09:25:17 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+2016-08-15 09:25:17 [scrapy] DEBUG: pn=1&kd=%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E5%85%B6%E5%AE%83
+2016-08-15 09:25:17 [scrapy] DEBUG: 202.100.167.182:80
+2016-08-15 09:25:17 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2016-08-15 09:25:17 [scrapy] INFO: Closing spider (shutdown)
+2016-08-15 09:25:18 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
+2016-08-15 09:25:18 [scrapy] DEBUG: Crawled (200) <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (referer: None)
+2016-08-15 09:25:18 [scrapy] DEBUG: Retrying <POST http://www.lagou.com/jobs/positionAjax.json?px=default&city=%E5%AE%89%E5%BA%86&needAddtionalResult=false> (failed 1 times): [<twisted.python.failure.Failure twisted.internet.error.ConnectionLost: Connection to the other side was lost in a non-clean fashion: Connection lost.>]
