@@ -1,6 +1,6 @@
 # Lagou_job
 使用scrapy、mysql，实现对拉勾网招聘信息的爬虫，使用Proxies定时更新代理池并检测代理的可用性。
-这个项目是为我之后对拉勾网的招聘信息进行分析的前置项目，获取数据保存到mysql。
+这个项目是为我之后对[拉勾网的招聘信息进行分析](https://github.com/ioiogoo/internet_job_analysis)的前置项目，获取数据保存到mysql。
 
 * 更新代理池。通过[Proxies](https://github.com/ioiogoo/Proxies_)获取并保存到根目录下proxies.txt文件
 * 数据存储在mysql数据库中，主要字段包括：
